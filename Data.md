@@ -7,4 +7,4 @@ I have uploaded the data <a href = 'https://github.com/hithesh111/Coursera_Capst
 
 And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal</a>.<br>
 
-The API was used to get information about various venues and their details within some radius around points on the map.
+The API was used to get information about various venues and their details (like name, category, latitude, longitude) within some radius around points on the map.
