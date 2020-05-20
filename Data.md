@@ -10,4 +10,4 @@ Since there were only ~60 neighborhoods, googling for coordinates of these was f
 
 <h3>FourSquare Location Data</h3>
 And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal</a>.<br>
-The API was used to get information about various venues and their details (like name, category, latitude, longitude) within some radius around points on the map. The 4 details mentioned above were most important to create onehot encodings of frequency of venues in neighborhoods.
+The API was used to get information about various venues and their details (like name, category, latitude, longitude) within some radius around points on the map. The 4 details mentioned above were most important to create onehot encodings of frequency of venues in neighborhoods which was then used to cluster the neighborhoods.
