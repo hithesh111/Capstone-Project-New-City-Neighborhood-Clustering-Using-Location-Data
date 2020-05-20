@@ -1,7 +1,7 @@
 <h1>New City Neighborhood Project </h1>
 <h2>Background</h2>
 Most of us have to move around to different cities for various reasons like new college, job, trainings, vacations etc. But we would wish to reside in a neighborhood where we get access to facilities that are important for us.<br><br> People very often find themselves in a neighborhood where their priorities are not catered easily. Traveling to far places very often for important things is not comfortable indeed. Therefore it is quite useful to know places where you get the services you want easily.<br><br>
-For example,a person who is a football fan and a pizza lover would very much like to find places where they are common. But normally, it would take a lot of effort to find such places on your own. That's the motivation behind this project.
+For example,a person who is a football fan and a pizza lover would very much like to find places a football ground or pizza place is common. But normally, it would take a lot of effort to find such places on your own. That's the motivation behind this project.
 <h2>Introduction/Business Problem</h2>
 The goal of the project is to predict and suggest the best possible neighborhoods for the user based on their priorities. The unsupervised learning method KMeans Clustering is used to learn from FourSquare location data to cluster neighborhoods based on the extent of common facilities available. I have chosen the location to be Bangalore for this project.<br><br>
 This is a useful feature to incorporate for online travel and hotel agencies so that they can guide their users better and provide personalised suggestions in choosing where to stay in the new city.<br><br>
