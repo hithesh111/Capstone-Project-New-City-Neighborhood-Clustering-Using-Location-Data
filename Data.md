@@ -5,4 +5,6 @@ Scrapped the <a href = 'https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_
 Since there were only ~60 neighborhoods, googling for coordinates of these neighborhoods was feasible.
 I have uploaded the data <a href = 'https://github.com/hithesh111/Coursera_Capstone/blob/master/neighborhood_lat_long.csv'> here. </a>
 
-And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal</a>.
+And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal</a>.<br>
+
+The API was used to get information about various venues and their details within some radius around points on the map.
