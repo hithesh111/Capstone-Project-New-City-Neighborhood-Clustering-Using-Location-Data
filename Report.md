@@ -25,4 +25,4 @@ KMeans Clustering model from Scikit-learn is then trained on this onehot encodin
 The user is given a list of choices to choose their top picks for most common requirements in the neighborhood where they want to reside. These choices are converted to a onehot vector of same size as the number of columns in our onehot encoding dataframe. Now KMeans Clustering is used to predict a cluster for this vector. The predicted cluster is printed and all the neighborhoods in the cluster and their most common venues are shown.<br><br>
 Also, to easily navigate and find the most suited neighborhood within the cluster, the user is also shown the top neighborhoods offering his 1st priority service, top neighborhoods offering his 2nd priority service, top neighborhoods offering his 3rd  priority service and top neighborhoods offering his 4th priority service to note down places of special interest(if any).<br><br>
 
-
+<h3>Results</h3>
