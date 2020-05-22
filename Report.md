@@ -16,8 +16,9 @@ Scrapped the <a href = 'https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_
 Since there were only ~60 neighborhoods, googling for coordinates of these was feasible. I have entered latitudes and longitudes of these neighborhoods manually and uploaded the data <a href = 'https://github.com/hithesh111/Coursera_Capstone/blob/master/neighborhood_lat_long.csv'> here. </a>
 
 <h3>FourSquare Location Data</h3>
-And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal</a>.<br>
-The API was used to get information about various venues and their details (name, category, latitude, longitude) within some radius around points on the map. The 4 details mentioned above were the only ones required to create onehot encodings of frequency of venues in neighborhoods which was then used to cluster the neighborhoods. Cleaning up the FourSquare API results to get a clean version of these 4 columns required a little understanding of json files and <i>json_normalize function </i> from the pandas.io.json library.<br><br>
+And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal.</a> The API was used to get information about various venues and their details mainly.<br>
+
+<h2>Methodology </h2>
+Using the API, information about various venues and their details (name, category, latitude, longitude) within some radius around points on the map was received. The 4 details mentioned above were the ones required to create onehot encodings of frequency of venues in neighborhoods which was then used to cluster the neighborhoods. Cleaning up the FourSquare API results to get a clean version of these 4 columns required a little understanding of json files and <i>json_normalize </i> function from the pandas.io.json library.<br>
+KMeans Clustering model from Scikit-learn is then trained on this onehot encoding dataframe and is used to make predictions<br>
 The user's top few priorities are also represented as a onehot vector and then the cluster prediction is done on this vector.<br><br>
-
-
