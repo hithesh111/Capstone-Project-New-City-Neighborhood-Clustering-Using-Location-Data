@@ -7,7 +7,7 @@ The goal of the project is to predict and suggest the best possible neighborhood
 This is a useful feature to incorporate for online travel and hotel agencies so that they can guide their users better and provide personalised suggestions in choosing where to stay in the new city.<br><br>
 For example, the user wants few good Southern restaurants and also wants a gym/fitness centre near his residence. He enters these two and two more priorities online and gets the result as a cluster of neighborhoods and their most common venues which suit his interest.
 
-<h2>Data used</h2>
+<h2>Obtaining and Cleaning Data</h2>
 
 <h3>Wikipedia page</h3>
 Scrapped the <a href = 'https://en.wikipedia.org/wiki/List_of_neighbourhoods_in_Bangalore'> Wikipedia Page </a> about Zones and Neighborhoods in Bangalore. It has zone-wise tables with rows being neighborhoods in the zone and the description of the neighborhood. The description, however is not relevant to our project and the column is dropped.
@@ -17,5 +17,7 @@ Since there were only ~60 neighborhoods, googling for coordinates of these was f
 
 <h3>FourSquare Location Data</h3>
 And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was used to fetch location-based results using their <a href = 'https://foursquare.com/developers'>Developer Portal</a>.<br>
-The API was used to get information about various venues and their details (like name, category, latitude, longitude) within some radius around points on the map. The 4 details mentioned above were most important to create onehot encodings of frequency of venues in neighborhoods which was then used to cluster the neighborhoods.<br><br>
-The user's top few priorities are also represented as a onehot vector and then the cluster prediction is done on this vector.
+The API was used to get information about various venues and their details (name, category, latitude, longitude) within some radius around points on the map. The 4 details mentioned above were the only ones required to create onehot encodings of frequency of venues in neighborhoods which was then used to cluster the neighborhoods. Cleaning up the FourSquare API results to get a clean version of these 4 columns required a little understanding of json files and <i>json_normalize function </i> from the pandas.io.json library.<br><br>
+The user's top few priorities are also represented as a onehot vector and then the cluster prediction is done on this vector.<br><br>
+
+
