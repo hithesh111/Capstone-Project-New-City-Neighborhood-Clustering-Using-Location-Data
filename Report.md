@@ -20,5 +20,6 @@ And most importantly,<a href = 'https://foursquare.com/'>FourSquare</a> data was
 
 <h2>Methodology </h2>
 Using the API, information about various venues and their details (name, category, latitude, longitude) within some radius around points on the map was received. The 4 details mentioned above were the ones required to create onehot encodings of frequency of venues in neighborhoods which was then used to cluster the neighborhoods. Cleaning up the FourSquare API results to get a clean version of these 4 columns required a little understanding of json files and <i>json_normalize </i> function from the pandas.io.json library.<br>
-KMeans Clustering model from Scikit-learn is then trained on this onehot encoding dataframe and is used to make predictions<br>
-The user's top few priorities are also represented as a onehot vector and then the cluster prediction is done on this vector.<br><br>
+KMeans Clustering model from Scikit-learn is then trained on this onehot encoding dataframe (with number of clusters = 4)<br>
+The user is given a list of choices to choose their top picks for most common requirements in the neighborhood where they want to reside. These choices are converted to a onehot vector of same size as the number of columns in our onehot encoding dataframe. Now KMeans Clustering is used to predict a cluster for this vector. The user is also shown the top neighborhoods offering his 1st priority service, top neighborhoods offering his 2nd priority service, top neighborhoods offering his 3rd  priority service and top neighborhoods offering his 4th priority service to note down places of special interest(if any) and to easily navigate and find the most suited neighborhood within the cluster
+<br><br>
