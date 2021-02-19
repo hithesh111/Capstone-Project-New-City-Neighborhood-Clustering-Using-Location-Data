@@ -1,5 +1,7 @@
 <h1>Clustering - New City Neighborhood Project</h1>
 
+![NeW CITY NEIGHBORHOOD PROJECT (1)](https://user-images.githubusercontent.com/44721008/108470998-cb90b100-72b0-11eb-8755-63073a14f5d6.png)
+
 Project  as part of IBM Applied Data Science Specialization
 
 <a href = 'https://docs.google.com/document/d/1IlCTmYZgrYKHxcLRApbsOsRRtqjjlEUqvlnT71n8_Uk/export?format=pdf'>Project Report</a> | <a href = 'https://www.linkedin.com/pulse/new-city-neighborhood-project-hithesh-kk/'>Article</a> | <a href = 'https://github.com/hithesh111/Coursera_Capstone/blob/master/Code.ipynb'>Code</a> | <a href = 'https://github.com/hithesh111/Coursera_Capstone/blob/master/Data.md'>Data</a>
