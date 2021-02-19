@@ -1,4 +1,4 @@
-<h2>New City Neighborhood Project</h2>
+<h1>Clustering - New City Neighborhood Project</h1>
 
 Project  as part of IBM Applied Data Science Specialization<br>
 Goal: Finding user-personalised neighborhoods in a new city.
