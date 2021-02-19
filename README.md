@@ -19,7 +19,7 @@ The goal of the project is to predict and suggest the best possible neighborhood
 This is a useful feature to incorporate for online travel and hotel agencies so that they can guide their users better and provide personalized suggestions in choosing where to stay in the new city.
 
 <h2><b>Data Description</b></h2>
-<h3><b>Wikipedia page<b></h3>
+<h3><b>Wikipedia page</b></h3>
 Scrapped the Wikipedia Page about Zones and Neighborhoods in Bangalore. It has zone-wise tables with rows being neighborhoods in the zone and the description of the neighborhood. The description, however is not relevant to our project and the column is dropped.
 
 <h3><b>Latitudes and Longitudes (Google)<h3></b>
