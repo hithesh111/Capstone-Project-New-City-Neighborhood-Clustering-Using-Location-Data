@@ -110,5 +110,3 @@ This is the image of the dataframe of all neighborhoods with cluster that the us
 I observed while testing the code that if the first and second preferences of the user are not very common in general, the cluster assigned is almost always the most generic one (the one with the most neighborhoods). Therefore I have given limited choices to choose the first preference (10) and second preference (20). 
 
 The get_nearby_venues which creates a dataframe of all venues in a neighborhood sometimes shows a strange error. However, it usually works if I re-run the code.
-
-Github : https://github.com/hithesh111/Coursera_Capstone
