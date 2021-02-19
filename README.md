@@ -1,34 +1,34 @@
 <h1>Clustering - New City Neighborhood Project</h1>
 
-Project  as part of IBM Applied Data Science Specialization<br>
+Project  as part of IBM Applied Data Science Specialization
 
 <a href = 'https://docs.google.com/document/d/1IlCTmYZgrYKHxcLRApbsOsRRtqjjlEUqvlnT71n8_Uk/export?format=pdf'>Project Report</a> | <a href = 'https://www.linkedin.com/pulse/new-city-neighborhood-project-hithesh-kk/'>Article</a> | <a href = 'https://github.com/hithesh111/Coursera_Capstone/blob/master/Code.ipynb'>Code</a> | <a href = 'https://github.com/hithesh111/Coursera_Capstone/blob/master/Data.md'>Data</a>
 
-<b><h2>Introduction</h2><br></b>
+<b><h2>Introduction</h2></b>
 
-<b><h3>Background</h3></b><br>
+<b><h3>Background</h3></b>
 Most of us have to move around to different cities for various reasons like new college, job, training, vacations etc. But we would wish to reside in a neighborhood where we get access to facilities that are important for us.
 
 People very often find themselves in a neighborhood where their priorities are not catered easily. Traveling to far places very often for important things is not comfortable indeed. Therefore it is quite useful to know places where you get the services you want easily.
 
 For example,a person who likes pizza and coffee would very much like to find places where they are common. But normally, it would take a lot of effort to find such places on their own. That's the motivation behind this project.
 
-<b><h2>Business problem</h2></b><br>
+<b><h2>Business problem</h2></b>
 The goal of the project is to predict and suggest the best possible neighborhoods for the user based on their priorities. The unsupervised learning method KMeans Clustering is used to learn from FourSquare location data to cluster neighborhoods based on the extent of common facilities available. I have chosen the location to be Bangalore for this project.
 
 This is a useful feature to incorporate for online travel and hotel agencies so that they can guide their users better and provide personalized suggestions in choosing where to stay in the new city.
 
-<h2><b>Data Description</b></h2><br>
-<h3><b>Wikipedia page<b></h3><br>
+<h2><b>Data Description</b></h2>
+<h3><b>Wikipedia page<b></h3>
 Scrapped the Wikipedia Page about Zones and Neighborhoods in Bangalore. It has zone-wise tables with rows being neighborhoods in the zone and the description of the neighborhood. The description, however is not relevant to our project and the column is dropped.
 
-<h3><b>Latitudes and Longitudes (Google)<h3></b><br>
+<h3><b>Latitudes and Longitudes (Google)<h3></b>
 Since there were only ~60 neighborhoods, googling for coordinates of these was feasible. I have entered latitudes and longitudes of these neighborhoods manually and uploaded the data here.
 
-<h3><b>FourSquare Location Data</h3></b><br>
+<h3><b>FourSquare Location Data</h3></b>
 And most importantly,FourSquare data was used to fetch location-based results using their Developer Portal. The API was used to get information about various venues and their details mainly.
 
-<h2><b>Methodology</h2></b><br>
+<h2><b>Methodology</h2></b>
 This is how our data looks like once we're done scraping and adding latitude and longitude columns.
 
 No alt text provided for this image
@@ -65,7 +65,7 @@ Now KMeans Clustering is used to predict a cluster for this vector. The predicte
 
 Also, to easily navigate and find the most suited neighborhood within the cluster, the user is also shown the top neighborhoods offering his 1st priority service, top neighborhoods offering his 2nd priority service, top neighborhoods offering his 3rd priority service and top neighborhoods offering his 4th priority service to note down places of special interest(if any).
 
-<b><h2>Results</h2></b><br>
+<b><h2>Results</h2></b>
 
 The yellowbrick library was used to plot the Elbow graph to find the optimal number of clusters for the data. It was found to be 4 as shown below.
 
