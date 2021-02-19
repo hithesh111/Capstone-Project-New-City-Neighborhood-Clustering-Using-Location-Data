@@ -22,7 +22,7 @@ This is a useful feature to incorporate for online travel and hotel agencies so 
 <h3><b>Wikipedia page</b></h3>
 Scrapped the Wikipedia Page about Zones and Neighborhoods in Bangalore. It has zone-wise tables with rows being neighborhoods in the zone and the description of the neighborhood. The description, however is not relevant to our project and the column is dropped.
 
-<h3><b>Latitudes and Longitudes (Google)<h3></b>
+<h3><b>Latitudes and Longitudes (Google)</h3></b>
 Since there were only ~60 neighborhoods, googling for coordinates of these was feasible. I have entered latitudes and longitudes of these neighborhoods manually and uploaded the data here.
 
 <h3><b>FourSquare Location Data</h3></b>
