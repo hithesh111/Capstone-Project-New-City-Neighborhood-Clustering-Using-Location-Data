@@ -1,4 +1,4 @@
-<h1>Clustering - New City Neighborhood Project</h1>
+<h1>Capstone Project - New City Neighborhood (Clustering) </h1>
 
 ![NeW CITY NEIGHBORHOOD PROJECT (1)](https://user-images.githubusercontent.com/44721008/108470998-cb90b100-72b0-11eb-8755-63073a14f5d6.png)
 
